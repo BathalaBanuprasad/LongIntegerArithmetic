@@ -1,7 +1,7 @@
 # LongIntegerArithmetic
 
 # OVERVIEW:
-In this program, i am considering two operators ADD('+') and MUL('*')
+In this program, i am considering two operators ADD('+') and MUL('*').
 Performing infix evalutaion on these, based on operator precedence between the two operators.
 To perform, infix evaluation i had to use STACKS to store operators and operands. 
 And by checking operator presedence, i am evalutaing the given expression.
@@ -15,8 +15,8 @@ Used an infix evaluation algorithm to evaluate the given expression.
 While printing the output, converting the number to corresponding string to print 0's in Most significant bits as well. (Printing "0001" instead of just 1)
 
 # SAMPLE INPUTS AND OUTPUTS:
-only + and * is supported
-Number representation: xxxx,xxxx$*xxxx,xxxx$=Result
+only + and * is supported.
+Number representation: xxxx,xxxx$*xxxx,xxxx$=Result.
 No spaces between operands, operator and equal.
 
 1.	Input: 1110,0000$*0011$+0009$
