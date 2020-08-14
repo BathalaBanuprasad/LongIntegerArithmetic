@@ -1,0 +1,13 @@
+OVERVIEW:
+In this program, i am considering two operators ADD('+') and MUL('*')
+Performing infix evalutaion on these, based on operator precedence between the two operators.
+To perform, infix evaluation i had to use STACKS to store operators and operands. 
+And by checking operator presedence, i am evalutaing the given expression.
+
+IMPLEMENTATION:
+Implemented two types of stacks to store operator and operands. And implemented necessary functions of a stack.
+Using a single Linked list to store all, operators and its result
+Addition implementation is similiar to a FULL ADDER in digital circuits. Each addition is performed using 4 digits of two operands and carry of previous addition. Then storing the sum and carry, and updating the result.
+Multiplication implementation is similiar to convolution (As i studied in my signals and systems course of my undergraduation). It is just reversing blocks (4 digits of operand) of one number. Perform subsequent shifting, multiplication and addition of blocks until no overlapping blocks are present.
+Used an infix evaluation algorithm to evaluate the given expression.
+While printing the output, converting the number to corresponding string to print 0's in Most significant bits as well. (Printing "0001" instead of just 1)
